@@ -1,19 +1,25 @@
-import './Dmy.css'
+import "./Dmy.css";
 
 export default function Dmy() {
   return (
     <div className="dmy-container">
-      <div className="day-container">
+      <div className="date-container">
         <label>DAY</label>
-        <input type="number"></input>
+        <div className="input-container">
+          <input type="number" />
+        </div>
       </div>
-      <div className="month-container">
+      <div className="date-container">
         <label>MONTH</label>
-        <input type="number"></input>
+        <div className="input-container">
+          <input type="number" />
+        </div>
       </div>
-      <div className="year-container">
+      <div className="date-container">
         <label>YEAR</label>
-        <input type="number"></input>
+        <div className="input-container">
+          <input type="number" />
+        </div>
       </div>
     </div>
   );

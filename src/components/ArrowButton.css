@@ -1,0 +1,11 @@
+.arrow-container{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    width: 18.4375rem;
+}
+.line{
+    height: 1px;
+    background: var(--Line, #DCDCDC);
+    width: 100%;
+}

@@ -1,13 +1,15 @@
-import React from 'react'
-import arrow from '../assets/icon-arrow.svg'
-import './ArrowButton.css'
+import React from "react";
+import arrow from "../assets/icon-arrow.svg";
+import "./ArrowButton.css";
 
 export default function ArrowButton() {
   return (
-    <div className='arrow-container'>
-        <div className='line'></div>
+    <div className="arrowButton-container">
+      <div className="line"></div>
+      <div className="arrowImg-container">
         <img src={arrow} />
-        <div className='line2'></div>
+      </div>
+      <div className="line"></div>
     </div>
-  )
+  );
 }

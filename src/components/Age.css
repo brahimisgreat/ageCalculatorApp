@@ -1,0 +1,32 @@
+.age-container {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+}
+
+.ymd {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+p{
+    color: var(--Purple, #854DFF);
+    font-family: Poppins;
+    font-size: 56px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 110%;
+    letter-spacing: -1.12px;
+}
+
+h1{
+    color: var(--Black, #151515);
+    font-family: Poppins;
+    font-size: 56px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 110%;
+    letter-spacing: -1.12px;
+}

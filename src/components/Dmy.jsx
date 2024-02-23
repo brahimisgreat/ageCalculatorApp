@@ -6,7 +6,7 @@ export default function Dmy() {
       <div className="date-container">
         <label>DAY</label>
         <div className="input-container">
-          <input type="number" />
+          <input type="number" id="day" name="day" min='1'  />
         </div>
       </div>
       <div className="date-container">

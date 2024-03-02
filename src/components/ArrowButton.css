@@ -27,3 +27,7 @@ img {
   width: 39%;
   height: 1px;
 }
+button{
+  background-color: transparent;
+  border: none;
+}
